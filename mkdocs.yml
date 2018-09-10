@@ -1,29 +1,26 @@
-site_name: Docs-test
-site_url: http://athenian-programming.github.io/docs-test/
-site_description: AI4Robots Documentation
-site_author: Test Team
+site_name: MkDocs Demo
+site_url: http://athenian-programming.github.io/mkdocs-demo/
+site_description: MkDocs Demo Documentation
+site_author: Demo Team
 
-repo_url: https://github.com/athenian-programming/docs-test
+repo_url: https://github.com/athenian-programming/mkdocs-demo
 repo_name: 'GitHub Home'
+
+# Uncomment this and insert you google ID
+#google_analytics: ['UA-XXXXX7852-1', 'auto']
 
 nav:
   - Home: index.md
-  - Python Packages:
-    - OpenCV: opencv.md
-  - Software Notes:
-    - ROS: ros.md
-    - TurtleBot3: turtlebot3.md
-    - MkDocs: mkdocs.md
-  - Hardware Notes:
-    - Nvidia Jetson TX2: jetsontx2.md
+  - Setup: setup.md
+  - Github Repos:
+    - Project: project.md
+    - Organization: organization.md
 
 theme:
   name: 'material'
-
   # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
-
   language: en
   feature:
     tabs: false
@@ -36,4 +33,25 @@ theme:
   logo: 'images/owls.jpg'
   favicon: 'assets/images/favicon.ico'
 
-#google_analytics: ['UA-99997852-1', 'auto']
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
