@@ -1,0 +1,39 @@
+site_name: Docs-test
+site_url: http://athenian-programming.github.io/docs-test/
+site_description: AI4Robots Documentation
+site_author: Test Team
+
+repo_url: https://github.com/athenian-programming/docs-test
+repo_name: 'GitHub Home'
+
+nav:
+  - Home: index.md
+  - Python Packages:
+    - OpenCV: opencv.md
+  - Software Notes:
+    - ROS: ros.md
+    - TurtleBot3: turtlebot3.md
+    - MkDocs: mkdocs.md
+  - Hardware Notes:
+    - Nvidia Jetson TX2: jetsontx2.md
+
+theme:
+  name: 'material'
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: 'images/owls.jpg'
+  favicon: 'assets/images/favicon.ico'
+
+#google_analytics: ['UA-99997852-1', 'auto']
