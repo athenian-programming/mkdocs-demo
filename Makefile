@@ -9,6 +9,8 @@ clean:
 server:
 	mkdocs serve
 
+deploy: project-deploy
+
 # Deploy GitHub project websites
 project-deploy:
 	mkdocs gh-deploy

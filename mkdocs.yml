@@ -12,7 +12,7 @@ repo_name: 'GitHub Home'
 nav:
   - Home: index.md
   - Setup: setup.md
-  - Github Repos:
+  - Repo Types:
     - Project: github-project.md
     - Organization: github-organization.md
 
