@@ -299,6 +299,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#dns-configuration" title="DNS Configuration" class="md-nav__link">
+    DNS Configuration
+  </a>
+  
+</li>
+      
       
       
       
@@ -320,11 +327,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
-      Github Repos
+      Repo Types
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-3">
-        Github Repos
+        Repo Types
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -392,6 +399,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#dns-configuration" title="DNS Configuration" class="md-nav__link">
+    DNS Configuration
+  </a>
+  
+</li>
+      
       
       
       
@@ -426,7 +440,15 @@ site/                          # Generated website (not included in repo)
 
 
 <h3 id="custom-domain-names">Custom Domain Names<a class="headerlink" href="#custom-domain-names" title="Permanent link">&para;</a></h3>
-<p>The default URL for a </p>
+<ul>
+<li>The <code class="codehilite">CNAME</code> file contains the custom domain name, e.g., <code class="codehilite">www.mkdocs-demo.org</code></li>
+<li>Do not include a <code class="codehilite">CNAME</code> file in the repo if you are not using a custom domain name, i.e., you 
+are using the default URL</li>
+</ul>
+<h3 id="dns-configuration">DNS Configuration<a class="headerlink" href="#dns-configuration" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Create the required <code class="codehilite">A</code> (IPv4 address) records as described <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">here</a></li>
+</ul>
                 
                   
                 
