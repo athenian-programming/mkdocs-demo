@@ -13,7 +13,7 @@
         <meta name="description" content="MkDocs Demo Documentation">
       
       
-        <link rel="canonical" href="http://athenian-programming.github.io/mkdocs-demo/organization/">
+        <link rel="canonical" href="http://athenian-programming.github.io/mkdocs-demo/github-project/">
       
       
         <meta name="author" content="Demo Team">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Organization - MkDocs Demo</title>
+        <title>Project - MkDocs Demo</title>
       
     
     
@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../#github-user-and-organization-websites" tabindex="1" class="md-skip">
+      <a href="../#github-project-websites" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -130,7 +130,7 @@
                 MkDocs Demo
               </span>
               <span class="md-header-nav__topic">
-                Organization
+                Project
               </span>
             
           
@@ -290,18 +290,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../project/" title="Project" class="md-nav__link">
-      Project
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -312,10 +300,22 @@
       
     
     
-    <a href="./" title="Organization" class="md-nav__link md-nav__link--active">
-      Organization
+    <a href="./" title="Project" class="md-nav__link md-nav__link--active">
+      Project
     </a>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../github-organization/" title="Organization" class="md-nav__link">
+      Organization
+    </a>
   </li>
 
         
@@ -351,18 +351,16 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/athenian-programming/mkdocs-demo/edit/master/docs/organization.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/athenian-programming/mkdocs-demo/edit/master/docs/github-project.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="github-user-and-organization-websites">Github User and Organization Websites<a class="headerlink" href="#github-user-and-organization-websites" title="Permanent link">&para;</a></h1>
+                <h1 id="github-project-websites">Github Project Websites<a class="headerlink" href="#github-project-websites" title="Permanent link">&para;</a></h1>
 <div class="admonition info">
-<p class="admonition-title">User and Organization Details</p>
+<p class="admonition-title">Project Details</p>
 <ul>
-<li>MkDocs content is kept in <em>org-name-mkdocs</em> repo</li>
-<li>The site is built with: 
-<div class="codehilite"><pre><span></span>cd ../org-name.github.io; mkdocs gh-deploy --config-file ../org-name-mkdocs/mkdocs.yml --remote-branch master
-</pre></div></li>
-<li>The site content is pushed to the <em>org-name.github.io</em> repo's <em>master</em> branch </li>
+<li>An empty <em>.nojekyll</em> file is required in the root </li>
+<li>The site is built with: <code class="codehilite">mkdocs gh-deploy</code></li>
+<li>The site content is pushed to the Project repo's <em>gh_pages</em> branch</li>
 </ul>
 </div>
                 
@@ -385,7 +383,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../project/" title="Project" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../setup/" title="Setup" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -394,11 +392,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Project
+                Setup
               </span>
             </div>
           </a>
         
+        
+          <a href="../github-organization/" title="Organization" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Organization
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
