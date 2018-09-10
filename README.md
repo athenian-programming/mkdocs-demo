@@ -1,3 +1,3 @@
 # MkDocs Demo
 
-See http://
+See https://athenian-programming.github.io/mkdocs-demo/

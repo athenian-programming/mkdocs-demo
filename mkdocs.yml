@@ -13,8 +13,8 @@ nav:
   - Home: index.md
   - Setup: setup.md
   - Github Repos:
-    - Project: project.md
-    - Organization: organization.md
+    - Project: github-project.md
+    - Organization: github-organization.md
 
 theme:
   name: 'material'
