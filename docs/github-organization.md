@@ -1,5 +1,7 @@
 # Github User and Organization Websites
 
+User and Organization websites are described [here](https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites)
+
 !!! info "User and Organization Details"
 
     * MkDocs content is kept in *org-name-mkdocs* repo
