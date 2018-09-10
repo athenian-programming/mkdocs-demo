@@ -7,9 +7,9 @@ Project websites are described [here](https://help.github.com/articles/user-orga
     * An empty *.nojekyll* file is required in the root 
     
 ### Website Deployment
-* A site is built with: ``mkdocs gh-deploy``
-* A site's content is pushed to the Project repo's *gh_pages* branch
+* The site is built with: ``mkdocs gh-deploy``
+* THe site's content is pushed to the Project repo's *gh_pages* branch
 
 ### Default URL
-* The default URL for a Project website is: `https://projectname.github.io/projectname`, e.g., https://athenian-programming.github.io/mkdocs-demo/
+* The default URL for a Project website is: `https://project-name.github.io/project-name`, e.g., https://athenian-programming.github.io/mkdocs-demo/
 

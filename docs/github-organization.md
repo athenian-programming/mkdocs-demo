@@ -5,8 +5,14 @@ User and Organization websites are described [here](https://help.github.com/arti
 !!! info "User and Organization Details"
 
     * MkDocs content is kept in *org-name-mkdocs* repo
-    * The site is built with: 
-    ```
-    cd ../org-name.github.io; mkdocs gh-deploy --config-file ../org-name-mkdocs/mkdocs.yml --remote-branch master
-    ```
-    * The site content is pushed to the *org-name.github.io* repo's *master* branch 
+    
+    
+### Website Deployment
+* The site is built with: 
+```
+cd ../org-name.github.io; mkdocs gh-deploy --config-file ../org-name-mkdocs/mkdocs.yml --remote-branch master
+```
+* The site content is pushed to the *org-name.github.io* repo's *master* branch 
+
+### Default URL
+* The default URL for a Project website is: `https://org-name.github.io/org-name.github.io`, e.g., https://athenian-robotics.github.io/athenian-robotics.github.io/
