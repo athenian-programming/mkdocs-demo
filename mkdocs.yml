@@ -6,8 +6,8 @@ site_author: Demo Team
 repo_url: https://github.com/athenian-programming/mkdocs-demo
 repo_name: 'GitHub Home'
 
-# Uncomment this and insert you google ID
-#google_analytics: ['UA-XXXXX7852-1', 'auto']
+# Insert your Google Tracking ID
+google_analytics: ['UA-125864726-1', 'auto']
 
 nav:
   - Home: index.md
