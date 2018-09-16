@@ -259,6 +259,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../getting-started/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../layout/" title="Project Layout" class="md-nav__link">
       Project Layout
     </a>
@@ -317,23 +329,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#github-project-custom-domain-name-dns-config" title="Github Project Custom Domain Name DNS Config" class="md-nav__link">
-    Github Project Custom Domain Name DNS Config
+  <a href="#dns-configuration" title="DNS Configuration" class="md-nav__link">
+    DNS Configuration
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github-project-configuration" title="Github Project Configuration" class="md-nav__link">
+    Github Project Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#github-user-custom-domain-name-dns-config" title="Github User Custom Domain Name DNS Config" class="md-nav__link">
-    Github User Custom Domain Name DNS Config
+        
+          <li class="md-nav__item">
+  <a href="#github-user-configuration" title="Github User Configuration" class="md-nav__link">
+    Github User Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#github-organization-custom-domain-name-dns-config" title="Github Organization Custom Domain Name DNS Config" class="md-nav__link">
-    Github Organization Custom Domain Name DNS Config
+        
+          <li class="md-nav__item">
+  <a href="#github-organization-configuration" title="Github Organization Configuration" class="md-nav__link">
+    Github Organization Configuration
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -355,13 +380,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
-    <label class="md-nav__link" for="nav-5">
+    <label class="md-nav__link" for="nav-6">
       Website Types
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-5">
+      <label class="md-nav__title" for="nav-6">
         Website Types
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -385,8 +410,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../organization/" title="User and Organization" class="md-nav__link">
-      User and Organization
+    <a href="../organization/" title="User/Organization" class="md-nav__link">
+      User/Organization
     </a>
   </li>
 
@@ -424,23 +449,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#github-project-custom-domain-name-dns-config" title="Github Project Custom Domain Name DNS Config" class="md-nav__link">
-    Github Project Custom Domain Name DNS Config
+  <a href="#dns-configuration" title="DNS Configuration" class="md-nav__link">
+    DNS Configuration
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github-project-configuration" title="Github Project Configuration" class="md-nav__link">
+    Github Project Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#github-user-custom-domain-name-dns-config" title="Github User Custom Domain Name DNS Config" class="md-nav__link">
-    Github User Custom Domain Name DNS Config
+        
+          <li class="md-nav__item">
+  <a href="#github-user-configuration" title="Github User Configuration" class="md-nav__link">
+    Github User Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#github-organization-custom-domain-name-dns-config" title="Github Organization Custom Domain Name DNS Config" class="md-nav__link">
-    Github Organization Custom Domain Name DNS Config
+        
+          <li class="md-nav__item">
+  <a href="#github-organization-configuration" title="Github Organization Configuration" class="md-nav__link">
+    Github Organization Configuration
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -477,22 +515,26 @@ are using the default URL</li>
 <li><a href="https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/">Setting up an apex domain and www subdomain</a></li>
 </ul>
 </div>
-<div class="admonition note">
+<div class="admonition question">
 <p class="admonition-title">What is a DNS Resource Record?</p>
 <p><a href="https://support.google.com/domains/answer/3251147">About Resource Records</a></p>
 </div>
-<h2 id="github-project-custom-domain-name-dns-config">Github Project Custom Domain Name DNS Config<a class="headerlink" href="#github-project-custom-domain-name-dns-config" title="Permanent link">&para;</a></h2>
+<h2 id="dns-configuration">DNS Configuration<a class="headerlink" href="#dns-configuration" title="Permanent link">&para;</a></h2>
+<h3 id="github-project-configuration">Github Project Configuration<a class="headerlink" href="#github-project-configuration" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Create the required <code class="codehilite">A</code> (IPv4 address) records as described <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">here</a></li>
 <li>Create a <code class="codehilite">CNAME</code> (canonical name) record for <code class="codehilite">www</code> and assign it the domain name of the project</li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">DNS Config for Project on Google Domains</p>
 <p><img alt="Github Project DNS Configuration" src="/images/mkdocs-demo-config.jpg" /></p>
-<h2 id="github-user-custom-domain-name-dns-config">Github User Custom Domain Name DNS Config<a class="headerlink" href="#github-user-custom-domain-name-dns-config" title="Permanent link">&para;</a></h2>
+</div>
+<h3 id="github-user-configuration">Github User Configuration<a class="headerlink" href="#github-user-configuration" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Create the required <code class="codehilite">A</code> (IPv4 address) records as described <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">here</a></li>
 <li>Create a <code class="codehilite">CNAME</code> (canonical name) record for <code class="codehilite">www</code> and assign it the domain name of the user</li>
 </ul>
-<h2 id="github-organization-custom-domain-name-dns-config">Github Organization Custom Domain Name DNS Config<a class="headerlink" href="#github-organization-custom-domain-name-dns-config" title="Permanent link">&para;</a></h2>
+<h3 id="github-organization-configuration">Github Organization Configuration<a class="headerlink" href="#github-organization-configuration" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Create the required <code class="codehilite">A</code> (IPv4 address) records as described <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">here</a></li>
 <li>Create a <code class="codehilite">CNAME</code> (canonical name) record for <code class="codehilite">www</code> and assign it the domain name of the organization</li>
