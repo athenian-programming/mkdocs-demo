@@ -15,7 +15,8 @@ Github User and Organization websites are described [here](https://help.github.c
 cd ../org-name.github.io; mkdocs gh-deploy --config-file ../org-name-mkdocs/mkdocs.yml --remote-branch master
 ```
 * The site content is pushed to the *org-name.github.io* repo's *master* branch 
-* The [Makefile](https://github.com/athenian-programming/mkdocs-demo/blob/master/Makefile) in this [repo](https://github.com/athenian-programming/mkdocs-demo) has a target for building the site
+* The [Makefile](https://github.com/athenian-programming/mkdocs-demo/blob/master/Makefile) in this 
+[repo](https://github.com/athenian-programming/mkdocs-demo) has a target for building the site
 
 !!! info "MkDocs Description"
 

@@ -5,6 +5,10 @@ a [MkDocs](http://mkdocs.org) website using the [Material for MkDocs](https://sq
 theme. Details are included for hosting the website for a Github Project, 
 User or Organization.
 
+!!! note 
+
+    This is intended to be more of a template than a tutorial. 
+
 !!! note "Helpful Links"
 
     * [MkDocs](http://mkdocs.org)
