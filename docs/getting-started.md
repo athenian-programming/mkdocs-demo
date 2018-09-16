@@ -6,7 +6,7 @@
 - [ ] Install python
 - [ ] Install pip
 - [ ] [Install MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/#installing-mkdocs )
-- [ ] [Install Material](https://squidfunk.github.io/mkdocs-material/getting-started/#installing-material)
+- [ ] [Install Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/#installing-material)
 
 ## Create Content
 - [ ] [Create a mkdocs.yml file](https://squidfunk.github.io/mkdocs-material/getting-started/#full-example)
