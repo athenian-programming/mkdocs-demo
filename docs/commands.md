@@ -5,4 +5,4 @@
 * `mkdocs build` - Build the documentation site
 * `mkdocs help` - Print this help message
 
-The `Makefile` in this repo provides make targets for these comands.
+The [Makefile](https://github.com/athenian-programming/mkdocs-demo/blob/master/Makefile) in this [repo](https://github.com/athenian-programming/mkdocs-demo) provides make targets for these comands.

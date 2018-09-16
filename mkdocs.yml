@@ -15,8 +15,8 @@ nav:
   - Commands: commands.md
   - Custom Domain Names: dns.md
   - Repo Types:
-    - Project: github-project.md
-    - Organization: github-organization.md
+    - Project: project.md
+    - User and Organization: organization.md
 
 theme:
   name: 'material'

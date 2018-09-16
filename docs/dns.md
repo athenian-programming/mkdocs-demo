@@ -15,21 +15,21 @@ are using the default URL
 
     [About Resource Records](https://support.google.com/domains/answer/3251147)
     
-## Github Project Custom Domain Name DNS Configuration
+## Github Project Custom Domain Name DNS Config
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
-* Create a `CNAME` (canonical name) record for the `www` name and assign it the domain name of the project
+* Create a `CNAME` (canonical name) record for `www` and assign it the domain name of the project
 
 ![Github Project DNS Configuration](/images/mkdocs-demo-config.jpg)
 
 
-## Github User Custom Domain Name DNS Configuration
+## Github User Custom Domain Name DNS Config
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
-* Create a `CNAME` (canonical name) record for the `www` name and assign it the domain name of the user
+* Create a `CNAME` (canonical name) record for `www` and assign it the domain name of the user
 
-## Github Organization Custom Domain Name DNS Configuration
+## Github Organization Custom Domain Name DNS Config
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
-* Create a `CNAME` (canonical name) record for the `www` name and assign it the domain name of the organization
+* Create a `CNAME` (canonical name) record for `www` and assign it the domain name of the organization
 
-!!! warning "Problems?"
+!!! question "Not working?"
 
     Github's tips for [troubleshooting custom domains](https://help.github.com/articles/troubleshooting-custom-domains/)

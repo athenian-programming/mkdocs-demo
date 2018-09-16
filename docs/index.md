@@ -2,7 +2,7 @@
 
 This repo provides an example of 
 a [MkDocs](http://mkdocs.org) website using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
-theme. Details are included for hosting the website as a Github Project, 
+theme. Details are included for hosting the website for a Github Project, 
 User or Organization.
 
 !!! note "Helpful Links"
