@@ -6,7 +6,7 @@ website:
 clean:
 	rm -rf site
 
-server:
+serve:
 	mkdocs serve
 
 deploy: project-deploy

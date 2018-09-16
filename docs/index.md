@@ -1,18 +1,22 @@
 # MkDocs Demo
 
-### MkDocs Links
+This repo provides an example of 
+a [MkDocs](http://mkdocs.org) website using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+theme. Details are included for hosting the website as a Github Project, 
+Github User or Github Organization.
 
-* [MkDocs](http://mkdocs.org)
-* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [MkDocs Demo Github Repo](https://github.com/athenian-programming/mkdocs-demo)
+!!! note "MkDocs Info"
 
-### MkDocs Commands
+    * [MkDocs](http://mkdocs.org)
+    * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+    * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    * [MkDocs Demo Github Repo](https://github.com/athenian-programming/mkdocs-demo)
 
-* `mkdocs new [dir-name]` - Create a new project
-* `mkdocs serve` - Start the live-reloading docs server
-* `mkdocs build` - Build the documentation site
-* `mkdocs help` - Print this help message
+!!! note "Github Info"
+    
+    * [Github User, Organization, and Project Pages](https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites)
+
+
 
 
 

@@ -12,6 +12,8 @@ repo_name: 'GitHub Home'
 nav:
   - Home: index.md
   - Setup: setup.md
+  - Commands: commands.md
+  - Custom Domain Names: dns.md
   - Repo Types:
     - Project: github-project.md
     - Organization: github-organization.md
