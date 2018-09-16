@@ -11,12 +11,13 @@ google_analytics: ['UA-125864726-1', 'auto']
 
 nav:
   - Home: index.md
+  - Getting Started: getting-started.md
   - Project Layout: layout.md
   - Commands: commands.md
   - Custom Domain Names: dns.md
   - Website Types:
     - Project: project.md
-    - User and Organization: organization.md
+    - User/Organization: organization.md
 
 theme:
   name: 'material'
