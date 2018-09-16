@@ -34,6 +34,6 @@ are using the default URL
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 * Create a `CNAME` (canonical name) record for `www` and assign it the domain name of the organization
 
-!!! question "Not working?"
+!!! warning "Not working?"
 
     Github's tips for [troubleshooting custom domains](https://help.github.com/articles/troubleshooting-custom-domains/)
