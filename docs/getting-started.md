@@ -2,12 +2,15 @@
 
 ## Installation
 
+- [ ] Install git
+- [ ] Install python
+- [ ] Install pip
 - [ ] [Install MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/#installing-mkdocs )
 - [ ] [Install Material](https://squidfunk.github.io/mkdocs-material/getting-started/#installing-material)
 
 ## Create Content
 - [ ] [Create a mkdocs.yml file](https://squidfunk.github.io/mkdocs-material/getting-started/#full-example)
-- [ ] Put website [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) content  in a `docs` folder 
+- [ ] Put website [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) content in a `docs` folder 
 - [ ] Serve website locally with `mkdocs serve`
 
 ## Setup Custom Domain Name
