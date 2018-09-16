@@ -13,7 +13,7 @@
         <meta name="description" content="MkDocs Demo Documentation">
       
       
-        <link rel="canonical" href="http://athenian-programming.github.io/mkdocs-demo/github-organization/">
+        <link rel="canonical" href="http://athenian-programming.github.io/mkdocs-demo/dns/">
       
       
         <meta name="author" content="Demo Team">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Organization - MkDocs Demo</title>
+        <title>Custom Domain Names - MkDocs Demo</title>
       
     
     
@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../#github-user-and-organization-websites" tabindex="1" class="md-skip">
+      <a href="../#custom-domain-names" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -130,7 +130,7 @@
                 MkDocs Demo
               </span>
               <span class="md-header-nav__topic">
-                Organization
+                Custom Domain Names
               </span>
             
           
@@ -281,11 +281,79 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../dns/" title="Custom Domain Names" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Custom Domain Names
+      </label>
+    
+    <a href="./" title="Custom Domain Names" class="md-nav__link md-nav__link--active">
       Custom Domain Names
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#custom-domain-names" title="Custom Domain Names" class="md-nav__link">
+    Custom Domain Names
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cname-file" title="CNAME file" class="md-nav__link">
+    CNAME file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-project-custom-domain-name-dns-configuration" title="Github Project Custom Domain Name DNS Configuration" class="md-nav__link">
+    Github Project Custom Domain Name DNS Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-user-custom-domain-name-dns-configuration" title="Github User Custom Domain Name DNS Configuration" class="md-nav__link">
+    Github User Custom Domain Name DNS Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-organization-custom-domain-name-dns-configuration" title="Github Organization Custom Domain Name DNS Configuration" class="md-nav__link">
+    Github Organization Custom Domain Name DNS Configuration
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -293,12 +361,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
     <label class="md-nav__link" for="nav-5">
       Repo Types
@@ -326,56 +392,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Organization
-      </label>
-    
-    <a href="./" title="Organization" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../github-organization/" title="Organization" class="md-nav__link">
       Organization
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#website-deployment" title="Website Deployment" class="md-nav__link">
-    Website Deployment
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#default-url" title="Default URL" class="md-nav__link">
-    Default URL
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -398,23 +419,48 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#website-deployment" title="Website Deployment" class="md-nav__link">
-    Website Deployment
+  <a href="#custom-domain-names" title="Custom Domain Names" class="md-nav__link">
+    Custom Domain Names
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cname-file" title="CNAME file" class="md-nav__link">
+    CNAME file
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#default-url" title="Default URL" class="md-nav__link">
-    Default URL
+        
+          <li class="md-nav__item">
+  <a href="#github-project-custom-domain-name-dns-configuration" title="Github Project Custom Domain Name DNS Configuration" class="md-nav__link">
+    Github Project Custom Domain Name DNS Configuration
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-user-custom-domain-name-dns-configuration" title="Github User Custom Domain Name DNS Configuration" class="md-nav__link">
+    Github User Custom Domain Name DNS Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-organization-custom-domain-name-dns-configuration" title="Github Organization Custom Domain Name DNS Configuration" class="md-nav__link">
+    Github Organization Custom Domain Name DNS Configuration
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -434,33 +480,49 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/athenian-programming/mkdocs-demo/edit/master/docs/github-organization.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/athenian-programming/mkdocs-demo/edit/master/docs/dns.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="github-user-and-organization-websites">Github User and Organization Websites<a class="headerlink" href="#github-user-and-organization-websites" title="Permanent link">&para;</a></h1>
-<p>User and Organization websites are described <a href="https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites">here</a></p>
-<div class="admonition info">
-<p class="admonition-title">User and Organization Details</p>
+                  <h1>Custom Domain Names</h1>
+                
+                <h2 id="custom-domain-names">Custom Domain Names<a class="headerlink" href="#custom-domain-names" title="Permanent link">&para;</a></h2>
+<h3 id="cname-file">CNAME file<a class="headerlink" href="#cname-file" title="Permanent link">&para;</a></h3>
 <ul>
-<li>MkDocs content is kept in <em>org-name-mkdocs</em> repo</li>
+<li>The <code class="codehilite">CNAME</code> file contains the custom domain name, e.g., <code class="codehilite">www.mkdocs-demo.org</code></li>
+<li>Do not include a <code class="codehilite">CNAME</code> file in the repo if you are not using a custom domain name, i.e., you 
+are using the default URL</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Github Info on Apex Domains</p>
+<ul>
+<li><a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">Setting up an apex domain</a>   </li>
+<li><a href="https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/">Setting up an apex domain and www subdomain</a></li>
 </ul>
 </div>
-<h3 id="website-deployment">Website Deployment<a class="headerlink" href="#website-deployment" title="Permanent link">&para;</a></h3>
-<ul>
-<li>The site is built with: 
-<div class="codehilite"><pre><span></span>cd ../org-name.github.io; mkdocs gh-deploy --config-file ../org-name-mkdocs/mkdocs.yml --remote-branch master
-</pre></div></li>
-<li>The site content is pushed to the <em>org-name.github.io</em> repo's <em>master</em> branch </li>
-<li>The <code class="codehilite">Makefile</code> in this repo as a target for building the site</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">MkDocs Description</p>
-<p><a href="https://www.mkdocs.org/user-guide/deploying-your-docs/#organization-and-user-pages">Deploying Organization and User Pages</a></p>
+<div class="admonition note">
+<p class="admonition-title">What is a DNS Resource Record?</p>
+<p><a href="https://support.google.com/domains/answer/3251147">About Resource Records</a></p>
 </div>
-<h3 id="default-url">Default URL<a class="headerlink" href="#default-url" title="Permanent link">&para;</a></h3>
+<h3 id="github-project-custom-domain-name-dns-configuration">Github Project Custom Domain Name DNS Configuration<a class="headerlink" href="#github-project-custom-domain-name-dns-configuration" title="Permanent link">&para;</a></h3>
 <ul>
-<li>The default URL for a Project website is: <code class="codehilite">https://org-name.github.io/org-name.github.io</code>, e.g., <a href="https://athenian-robotics.github.io/athenian-robotics.github.io/">https://athenian-robotics.github.io/athenian-robotics.github.io/</a></li>
+<li>Create the required <code class="codehilite">A</code> (IPv4 address) records as described <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">here</a></li>
+<li>Create a <code class="codehilite">CNAME</code> (canonical name) record for the <code class="codehilite">www</code> name and assign it the domain name of the project</li>
 </ul>
+<p><img alt="Github Project DNS Configuration" src="/images/mkdocs-demo-config.jpg" /></p>
+<h3 id="github-user-custom-domain-name-dns-configuration">Github User Custom Domain Name DNS Configuration<a class="headerlink" href="#github-user-custom-domain-name-dns-configuration" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Create the required <code class="codehilite">A</code> (IPv4 address) records as described <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">here</a></li>
+<li>Create a <code class="codehilite">CNAME</code> (canonical name) record for the <code class="codehilite">www</code> name and assign it the domain name of the user</li>
+</ul>
+<h3 id="github-organization-custom-domain-name-dns-configuration">Github Organization Custom Domain Name DNS Configuration<a class="headerlink" href="#github-organization-custom-domain-name-dns-configuration" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Create the required <code class="codehilite">A</code> (IPv4 address) records as described <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">here</a></li>
+<li>Create a <code class="codehilite">CNAME</code> (canonical name) record for the <code class="codehilite">www</code> name and assign it the domain name of the organization</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Problems?</p>
+<p>Github's tips for <a href="https://help.github.com/articles/troubleshooting-custom-domains/">troubleshooting custom domains</a></p>
+</div>
                 
                   
                 
@@ -481,7 +543,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../github-project/" title="Project" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../commands/" title="Commands" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -490,11 +552,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Project
+                Commands
               </span>
             </div>
           </a>
         
+        
+          <a href="../github-project/" title="Project" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Project
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
