@@ -1,6 +1,4 @@
-# MkDocs Setup
-
-### MkDocs Project Layout
+# MkDocs Project Layout
     
     mkdocs.yml                     # Configuration file
     .gitignore                     # exclude site/ 

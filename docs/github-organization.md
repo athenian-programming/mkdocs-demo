@@ -1,4 +1,4 @@
-# Github User and Organization Websites
+## Github User and Organization Websites
 
 User and Organization websites are described [here](https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites)
 

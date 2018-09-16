@@ -1,6 +1,6 @@
-## Custom Domain Names
+# Custom Domain Names
 
-### CNAME file
+## CNAME file
 * The `CNAME` file contains the custom domain name, e.g., `www.mkdocs-demo.org`
 * Do not include a `CNAME` file in the repo if you are not using a custom domain name, i.e., you 
 are using the default URL
@@ -15,18 +15,18 @@ are using the default URL
 
     [About Resource Records](https://support.google.com/domains/answer/3251147)
     
-### Github Project Custom Domain Name DNS Configuration
+## Github Project Custom Domain Name DNS Configuration
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 * Create a `CNAME` (canonical name) record for the `www` name and assign it the domain name of the project
 
 ![Github Project DNS Configuration](/images/mkdocs-demo-config.jpg)
 
 
-### Github User Custom Domain Name DNS Configuration
+## Github User Custom Domain Name DNS Configuration
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 * Create a `CNAME` (canonical name) record for the `www` name and assign it the domain name of the user
 
-### Github Organization Custom Domain Name DNS Configuration
+## Github Organization Custom Domain Name DNS Configuration
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 * Create a `CNAME` (canonical name) record for the `www` name and assign it the domain name of the organization
 

@@ -1,4 +1,4 @@
-# Github Project Websites
+## Github Project Websites
 
 Project websites are described [here](https://help.github.com/articles/user-organization-and-project-pages/#project-pages-sites).
 
