@@ -21,5 +21,5 @@
 ## Publish to Github Pages
 - [ ] Publish content to Github Pages for [Project](/project) or [User/Organization](/organization) website
 
-## Publish with netlify
+## Publish with netlify.com
 - [ ] Publish content easily and automatically with [netlify](https://www.netlify.com)
