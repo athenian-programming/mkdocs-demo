@@ -23,7 +23,7 @@ are using the default URL
 
 !!! note "DNS Config for Project on Google Domains"
 
-    ![Github Project DNS Configuration](/images/mkdocs-demo-config.jpg)
+    ![Github Project DNS Configuration](../images/mkdocs-demo-config.jpg)
 
 
 ### Github User Configuration

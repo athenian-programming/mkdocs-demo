@@ -7,7 +7,7 @@ repo_url: https://github.com/athenian-programming/mkdocs-demo
 repo_name: 'GitHub Home'
 
 # Insert your Google Tracking ID
-google_analytics: ['UA-125864726-1', 'auto']
+google_analytics: [ 'UA-125864726-1', 'auto' ]
 
 nav:
   - Home: index.md
@@ -16,8 +16,8 @@ nav:
   - Commands: commands.md
   - Custom Domain Names: dns.md
   - Website Types:
-    - Project: project.md
-    - User/Organization: organization.md
+      - Project: project.md
+      - User/Organization: organization.md
 
 theme:
   name: 'material'
@@ -48,7 +48,8 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
