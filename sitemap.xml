@@ -1,38 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>http://athenian-programming.github.io/mkdocs-demo/</loc>
-     <lastmod>2018-09-17</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://athenian-programming.github.io/mkdocs-demo/</loc>
+         <lastmod>2024-12-13</lastmod>
     </url>
     <url>
-     <loc>http://athenian-programming.github.io/mkdocs-demo/getting-started/</loc>
-     <lastmod>2018-09-17</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://athenian-programming.github.io/mkdocs-demo/commands/</loc>
+         <lastmod>2024-12-13</lastmod>
     </url>
     <url>
-     <loc>http://athenian-programming.github.io/mkdocs-demo/layout/</loc>
-     <lastmod>2018-09-17</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://athenian-programming.github.io/mkdocs-demo/dns/</loc>
+         <lastmod>2024-12-13</lastmod>
     </url>
     <url>
-     <loc>http://athenian-programming.github.io/mkdocs-demo/commands/</loc>
-     <lastmod>2018-09-17</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://athenian-programming.github.io/mkdocs-demo/getting-started/</loc>
+         <lastmod>2024-12-13</lastmod>
     </url>
     <url>
-     <loc>http://athenian-programming.github.io/mkdocs-demo/dns/</loc>
-     <lastmod>2018-09-17</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://athenian-programming.github.io/mkdocs-demo/layout/</loc>
+         <lastmod>2024-12-13</lastmod>
     </url>
     <url>
-     <loc>http://athenian-programming.github.io/mkdocs-demo/project/</loc>
-     <lastmod>2018-09-17</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://athenian-programming.github.io/mkdocs-demo/organization/</loc>
+         <lastmod>2024-12-13</lastmod>
     </url>
     <url>
-     <loc>http://athenian-programming.github.io/mkdocs-demo/organization/</loc>
-     <lastmod>2018-09-17</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://athenian-programming.github.io/mkdocs-demo/project/</loc>
+         <lastmod>2024-12-13</lastmod>
     </url>
 </urlset>
