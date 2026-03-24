@@ -7,4 +7,4 @@ a [MkDocs](http://mkdocs.org) website using the [Material for MkDocs](https://sq
 theme. Details are included for hosting the website for a Github Project, 
 User or Organization.
 
-See https://mkdocs-demo.org 
+See https://athenian-programming.github.io/mkdocs-demo/

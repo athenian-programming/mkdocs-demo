@@ -6,7 +6,7 @@
 are using the default URL
 
 
-!!! note "Github Info on Apex Domains"
+!!! note "GitHub Info on Apex Domains"
     
     * [Setting up an apex domain](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)   
     * [Setting up an apex domain and www subdomain](https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/)
@@ -17,23 +17,23 @@ are using the default URL
     
 ## DNS Configuration
     
-### Github Project Configuration
+### GitHub Project Configuration
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 * Create a `CNAME` (canonical name) record for `www` and assign it the domain name of the project
 
 !!! note "DNS Config for Project on Google Domains"
 
-    ![Github Project DNS Configuration](../images/mkdocs-demo-config.jpg)
+    ![GitHub Project DNS Configuration](./images/mkdocs-demo-config.jpg)
 
 
-### Github User Configuration
+### GitHub User Configuration
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 * Create a `CNAME` (canonical name) record for `www` and assign it the domain name of the user
 
-### Github Organization Configuration
+### GitHub Organization Configuration
 * Create the required `A` (IPv4 address) records as described [here](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 * Create a `CNAME` (canonical name) record for `www` and assign it the domain name of the organization
 
 !!! warning "Not working?"
 
-    Github's tips for [troubleshooting custom domains](https://help.github.com/articles/troubleshooting-custom-domains/)
+    GitHub's tips for [troubleshooting custom domains](https://help.github.com/articles/troubleshooting-custom-domains/)

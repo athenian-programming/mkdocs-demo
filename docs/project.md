@@ -1,6 +1,6 @@
-# Github Project Websites
+# GitHub Project Websites
 
-Github Project websites are described [here](https://help.github.com/articles/user-organization-and-project-pages/#project-pages-sites).
+GitHub Project websites are described [here](https://help.github.com/articles/user-organization-and-project-pages/#project-pages-sites).
 
 !!! warning "Project Details"
 

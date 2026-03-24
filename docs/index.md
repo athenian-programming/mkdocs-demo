@@ -2,7 +2,7 @@
 
 This repo provides an example of 
 a [MkDocs](http://mkdocs.org) website using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
-theme. Details are included for hosting the website for a Github Project, 
+theme. Details are included for hosting the website for a GitHub Project, 
 User or Organization.
 
 !!! note 
@@ -15,7 +15,7 @@ User or Organization.
     * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
     * [Material for MkDocs Extensions](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)
     * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-    * [Github User, Organization, and Project Pages](https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites)
+    * [GitHub User, Organization, and Project Pages](https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites)
     * [MkDocs Demo Github Repo](https://github.com/athenian-programming/mkdocs-demo)    
 
 
